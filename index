@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Carros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Loja de Carros</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="destaques">
+            <h2>Carros em Destaque</h2>
+            <div class="carros">
+                <article class="carro">
+                    <img src="carro1.jpg" alt="Carro 1">
+                    <h3>Carro 1</h3>
+                    <p>Descrição breve do carro.</p>
+                </article>
+                <article class="carro">
+                    <img src="carro2.jpg" alt="Carro 2">
+                    <h3>Carro 2</h3>
+                    <p>Descrição breve do carro.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loja de Carros. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
